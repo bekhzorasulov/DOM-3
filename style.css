@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
 
 /*  1 Misol */
 
@@ -25,16 +33,7 @@
 
 /* 2 Misol */
 
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  text-align: center;
-}
-
-#text {
+/* #text {
   color: aqua;
   font-size: 40px;
   font-weight: 700;
@@ -50,19 +49,11 @@
   border-radius: 8px;
   font-size: 15px;
 } */
+*/
 
 /* 3 Misol */
 
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  text-align: center;
-}
-
-.main-image {
+/* .main-image {
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -76,10 +67,10 @@
 button {
   padding: 4px;
   border-radius: 5px;
-  border: none;
   cursor: pointer;
   transition: 0.5s;
   &:hover {
-    background-color: aqua;
+    background-color: yellow;
   }
 } */
+
